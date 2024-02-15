@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+html,
+body {
+  height: 100%;
+  font-family: 'Google Sans', sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background: #0e1525;
+}
+p,H1,h2,h3,h4,h5,h6,footer{
+  color: white;
+}
+small{
+  color:#878787;
+  font-family: 'Google Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} .block {
+  width: 100px;
+  padding: 10px 20px;
+}
+.block img{
+  cursor: pointer;
+  
+}
+/*.block :hover{
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+}*/
+.myStyle {
+  border-radius: 15px;
+  border: 6px solid #ffffff;
+}
+button{
+
+    display: inline-block;
+    background-color: #2d60d7;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  font-family: 'REM', sans-serif;
+  border-radius:7px;
+  font-size:18px;
+  cursor:pointer;
+}

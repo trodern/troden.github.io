@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+body{
+  background: #0e1525;
+  color: white;
+}
+.title{ 
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+}
+p{
+  font-family: 'REM', sans-serif;
+}
+
+.folders {
+  overflow-y: hidden;
+  max-width: 780px;
+}
+
+.folder {
+ font-family: 'Fira Sans', sans-serif;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 5em;
+  cursor:pointer;
+}
+.btn {
+    display: inline-block;
+    background-color: #2d60d7;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  border-radius:7px;
+}
+p,H1,h2,h3,h4,h5,h6,footer{
+  color: white;
+  font-family: 'Google Sans', sans-serif;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2004028122960426"
+     crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="saffi.css">
+  <title>AceTheExams - TextBooks</title>
+  <script>function Giauth(){
+  navigator.setAppBadge(0)
+  var vercode = document.getElementById('bttn').value
+  if (vercode.toLowerCase()=="giis"){
+      ;window.open("https://app.box.com/embed/s/zhf4ggtdaoaqa6uyyd7ynxtcc24lw1q3?sortColumn=name","_self")
+  }else if (vercode.toLowerCase()=="igcse"){
+    window.open("https://app.box.com/embed/s/d7pfz3mx48eo4y7flgeco286rklnsikv?sortColumn=name","_self")
+  }else{
+    alert('School not in Database')
+  }
+}
+    function TooCalc(){
+  let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+width=400,height=500,left=350,top=400`;//data to open no menu login
+
+open('https://www.desmos.com/scientific', 'test', params);//opens up a no menu version of login
+}
+    
+    </script>
+</head>
+<body>
+  <center>
+     <h1 class="title">Welcome to AceTheExams</h1>
+     <p>The Hub for Notes, TextBooks & More!</p>
+    <hr>
+
+  <div class="roow" style=" font-family: 'REM', sans-serif;;">
+      <div class="bloock" style="background-color: #1e7145;cursor: pointer;" onclick="window.location.assign('/resources/tools/tools.html');" >Tools<br><br><img  width="80px" src="/webfil/tools.png"></div>
+    <!--  <div class="bloock"style="background-color: #7e3878;">Past Papers</div>--><br><br>
+      <div class="bloock"style="background-color: #990066;cursor: pointer;" onclick="window.location.assign('https://app.box.com/embed/s/0gio9nnvnse4kvwm4iikdaipvg9l4p8y?sortColumn=name')">TextBooks<br><br><img src="/webfil/sub-ico/book.png" width="80px"></div>
+      <!--<div class="bloock"style="background-color: #b91d47;">vss</div>-->
+      
+    </div>
+    <br><br>
+    <h2>Find Your Syllabus</h2>
+    <input type="text" style="text-align: center;border-radius:6px;height:20px;width:300px;"placeholder="School Abbreviated Name/Syllabus name" id="bttn"></input>
+    <button class="btn" style="padding:3.5px;text-align: center;" onclick="Giauth()">Search</button><br>
+    <small>Type in IGCSE to find IGCSE Syllabus Guides</small>
+  <br><br>
+   <button class="btn" style="padding:8px;text-align: center;background-color:#da3830;cursor:pointer;" onclick="top.location.href = '/start/start.html'">Subject Selection</button><br>
+    
+  </center>
+</body>
+</html>

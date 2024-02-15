@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+html,
+body {
+  height: 100%;
+  font-family: 'Google Sans', sans-serif;
+  color: white;
+  overflow:hidden;
+}
+
+body {
+  margin: 0;
+  background: #0e1525;
+}
+p,H1,h2,h3,h4,h5,h6,footer{
+  color: white;
+}
+small{
+  color:#878787;
+  font-family: 'Google Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} .block {
+  width: 100px;
+  padding: 10px 20px;
+  margin:10px;
+}
+.block img{
+  cursor: pointer;
+  
+}
+/*.block :hover{
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+}*/
+.myStyle {
+  border-radius: 15px;
+  border: 6px solid #ffffff;
+}
+button{
+
+    display: inline-block;
+    background-color: #2d60d7;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  font-family: 'REM', sans-serif;
+  border-radius:7px;
+  font-size:18px;
+  cursor:pointer;
+}</style>
+  <title>AceTheExams - TextBooks</title>
+  <script>function Giauth(){
+  navigator.setAppBadge(0)
+  var vercode = document.getElementById('bttn').value
+  if (vercode.toLowerCase()=="giis"){
+    alert('Syllabus Chosen: '+vercode.toLowerCase())
+      ;window.open("https://drive.google.com/embeddedfolderview?id=1pzAgePa2g4MjMEhgXcJfdODNBGLL5BSw#grid","_self")
+  }else if (vercode.toLowerCase()=="igcse"){
+     alert('Syllabus Chosen: '+vercode.toLowerCase())
+    window.open("https://drive.google.com/embeddedfolderview?id=1MqDOajlEIJjYDFHsBRNjFmq9SUvwd4qv#grid","_self")
+  }else{
+    alert('School not in Database')
+  }
+}
+    function TooCalc(){
+      window.open("https://www.desmos.com/scientific", "_blank", "width=400,height=500");
+}
+     function Todo(){
+window.open("https://eshangonemad.github.io/todo/", "_blank", "width=400,height=500");
+}
+    </script>
+</head>
+<body>
+  <center>
+     <h1 class="title">Welcome to AceTheExams</h1>
+     <p>Our Tools</p>
+    <hr>
+  <div class="row" style=" font-family: 'REM', sans-serif;;">
+      <div class="block" onclick="TooCalc()"style="background-color: #7e3878;cursor: pointer;" onclick="TooCalc()" >Calculator<br><img  width="100px" src=""></div>
+    <div class="block" onclick="Todo()" style="background-color: #1e7145;cursor: pointer;">To-Do list</div><br><br>
+      <div class="block"style="background-color: #603cba;cursor: pointer;" onclick="window.open('https://eshangonemad.github.io/pomodoroi/', '_blank', 'width=500,height=500');">Study Timer<img src="" width="90px"></div></div>
+     <div class="row"> <div class="block" onclick='window.open("https://eshangonemad.github.io/Sdocx/", "_blank", "width=300,height=500");' style='background-color: #2a80ef;cursor: pointer;font-family: "Outfit", sans-serif;'>Notepad</div>
+     </div>
+  </center>
+</body>
+</html>

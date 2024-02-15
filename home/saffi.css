@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+@font-face { font-family: StarKloud Sans; src: url('StarKloud_Sanz.ttf'); }
+
+body{
+  background: #0e1525;
+  color: white;
+}
+.title{ 
+  font-family: 'StarKloud Sans', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+h2{
+  font-family:'Starkloud Sans';
+  letter-spacing: 1.5px;
+}
+p{
+  font-family: 'REM', sans-serif;
+}
+
+.folders {
+  overflow-y: hidden;
+  max-width: 780px;
+}
+
+.folder {
+ font-family: 'Fira Sans', sans-serif;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 5em;
+  cursor:pointer;
+}
+.btn {
+    display: inline-block;
+    background-color: #2d60d7;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  border-radius:7px;
+}
+p,H1,h2,h3,h4,h5,h6,footer,{
+  color: white;
+  font-family: 'Google Sans', sans-serif;
+}
+input{
+   color: black;
+   font-family: 'Google Sans', sans-serif;
+}
+
+ .roow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  } .bloock {
+    width: 100px;
+    padding: 10px 20px;
+    background-color:#ffffff;
+    margin:20px;
+    border-radius:6px;
+    height:120px;
+    width:120px;
+}
+    small{
+  color:#878787;
+  font-family: 'Google Sans', sans-serif;
+}

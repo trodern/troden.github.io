@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+html,
+body {
+  height: 99%;
+  font-family: 'Google Sans', sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background: #0e1525;
+}
+
+.nav {
+  background: #1c2333;
+  float: left;
+  height: 100%;
+  width: 72px;
+  bottom:-200px;
+}
+.nav div{
+  background-color: #3881f0;
+  height: 55px;
+  width:55px;
+  border-radius: 7px;
+  margin: 0 auto; 
+  position: relative;
+  cursor: pointer;
+  
+}
+hr{
+  border-color: #2a3247;
+  background-color:#2a3247 ;
+  height:3px;
+}
+
+/*
+This is for the tool tips
+*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip img{
+ margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding:7px 7px;
+
+}
+p,H1,h2,h3,h4,h5,h6,footer{
+  color: white;
+  font-family: 'Google Sans', sans-serif;
+}
+h1{
+  font-family: "REM";
+}
+
+#chem,#bio,#mathex,#cs,#phy{
+  margin-bottom: 10px; 
+}
+button{
+
+    display: inline-block;
+    background-color: #2d60d7;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  border-radius:7px;
+
+}
+
+.show{
+ display:block; 
+}
